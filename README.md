@@ -1,2 +1,2 @@
 # html-css
-Project for exercising
+Project for exercisingv2

@@ -10,6 +10,10 @@ body{
     font-family: sans-serif;
 }
 
+h1, h2{
+    text-decoration: underline;
+}
+
 h1{
     color: #cf2e12;
     font-size: 2em;
@@ -22,7 +26,6 @@ h2{
     color: #324dc5;
     font-size: 1.3em;
     font-weight: bolder;
-    text-decoration: underline;
 }
 
 h3{
@@ -31,8 +34,53 @@ h3{
 }
 
 #pret-vechi{
+    color: darkblue;
     text-decoration-line: line-through;
     text-decoration-color: red;
     text-decoration-thickness: 2.5px;
 }
 
+.pret{
+    font-size: 1.2em;
+    color: #ee380b;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+a{
+    margin: 2em;
+    border-style: double;
+    padding: 1em;
+    width: 50%;
+    height: 5em;
+}
+
+blockquote{
+    font-size: 1.2em;
+    font-style: italic;
+    color: rgb(156, 73, 73);
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    border-style: dotted;
+    border-color: #1cbad6;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 1em;
+    margin-top: 2em;
+    margin-left: 0;
+    width: 38%;
+    height: 5em;
+}
+
+ul{
+    list-style-type: '⛔ ';
+    list-style-image: url();
+}
+
+.imagine{
+    text-align: center;
+}

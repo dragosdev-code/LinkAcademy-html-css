@@ -1,0 +1,53 @@
+body{
+    background-color: #ffc392;
+    height: 200vh;
+}
+
+div{
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    line-height: 5em;
+}
+
+
+#a{
+    background-color: #ff5c7d;
+    position: relative;
+    top: 1em;
+    right: -1em;
+}
+
+#b{
+    background-color: rgb(236, 255, 65);
+    position: absolute;
+    top: 3em;
+    right: 2em;
+}
+
+#c{
+    background-color: rgb(104, 255, 104);
+    position: fixed;
+    top: 0;
+    left: 46%;
+}
+
+#d{
+    background-color: rgb(119, 98, 255);
+    position: sticky;
+    top: 0;
+}
+
+#parinte {
+    width: 10em;
+    height: 10em;
+    background-color: rgb(62, 226, 255);
+    position: absolute;
+    left: 6em;
+}
+
+#copil{
+    background-color: rgb(28, 105, 119);
+    position: absolute;
+    top: 2em;
+}

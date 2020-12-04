@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+}
 
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    font-size: 18px;
+    font-size: 14px;
     background-color: #eed5d0;
     font-family: sans-serif;
 }
@@ -60,20 +63,20 @@ a{
 }
 
 blockquote{
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-style: italic;
     color: rgb(156, 73, 73);
     text-decoration-style: dotted;
     text-decoration-line: underline;
-    border-style: dotted;
+    border-style: solid;
     border-color: #1cbad6;
     border-radius: 10px;
-    padding: 0.5em;
-    margin: 1em;
-    margin-top: 2em;
-    margin-left: 0;
-    width: 38%;
+    border-bottom-color: #ac9261;
+    padding: 1em 2em;
+    margin: 4em auto 3em auto;
+    width: 20em;
     height: 5em;
+    background-color: #eccb8d;
 }
 
 ul{
@@ -83,4 +86,10 @@ ul{
 
 .imagine{
     text-align: center;
+}
+
+.primul-cuvant{
+    color: #a84c17;
+    font-weight: bold;
+    font-size: 1.2em;
 }

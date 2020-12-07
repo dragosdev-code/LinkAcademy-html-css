@@ -1,0 +1,23 @@
+table{
+    border-style: solid;
+    border-color: #f8bd65;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+td{
+    border-style: solid;
+    border-color: #ff8e24;
+    padding: 0.5em;
+}
+
+th{
+    border-style: solid;
+    border-color: #ff9d80;
+    background-color: #f74d1a;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    padding-right: 1em;
+}

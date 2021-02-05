@@ -1,0 +1,17 @@
+.alert-dismissible{
+    width: 50%;
+    position: absolute;
+    top: 4em;
+    right: 2em;
+}
+
+#carouselExampleInterval, img{
+    width: 50%!important;
+    margin: auto;
+}
+
+#carouselExampleInterval .carousel-control-next-icon{
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIC0yMiA1MTIgNTExIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im01MTIgMjMzLjgyMDMxMi0yMTIuNzc3MzQ0LTIzMy4zMjAzMTJ2MTM5LjIwMzEyNWgtNDUuMjM4MjgxYy0xNDAuMjczNDM3IDAtMjUzLjk4NDM3NSAxMTMuNzEwOTM3LTI1My45ODQzNzUgMjUzLjk4NDM3NXY3My43Njk1MzFsMjAuMDkzNzUtMjIuMDE5NTMxYzY4LjMxNjQwNi03NC44NTE1NjIgMTY0Ljk4MDQ2OS0xMTcuNSAyNjYuMzI0MjE5LTExNy41aDEyLjgwNDY4N3YxMzkuMjAzMTI1em0wIDAiLz48L3N2Zz4=) ;
+    
+}

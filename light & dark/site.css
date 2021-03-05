@@ -5,9 +5,8 @@
 }
 
 body{
-    --black:#252525;
-    background-color:var(--black);
-    color: #e7e7e7;
+    background-color:var(--back-color);
+    color: var(--font-color);
     font-family: sans-serif;
 }
 
@@ -18,11 +17,12 @@ h1{
 
 nav ul{
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li{
-    margin: 2em 1em;
+    margin: 1.9em 1.3em;
     list-style-type: none;
     text-transform: uppercase;
     
@@ -30,6 +30,8 @@ nav ul li{
 
 #switch{
     font-size: 1.5em;
+    margin-top: 1.68em;
+    cursor: pointer;
 }
 
 div{

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 50vw;
+    background-color: #fdf147;
+    border-radius: 15px 15px 0 0;
+}
+
+
+h1{
+    margin-top: 3px;
+    text-align: center;
+    font-size: 2em;
+}
+
+h1::before, h1::after{
+    content: "xxx";
+    padding: 0 10px;
+    font-size: 0.7em;
+    color: #ff0202;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+}
+
+div p{
+    margin-top: 5px;
+}
+

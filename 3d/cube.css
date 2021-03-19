@@ -1,0 +1,78 @@
+.cube{
+    --size: 10em;
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    top: 20em;
+    left: 32vw;
+    perspective: 200px;
+    transform-style: preserve-3d;
+    perspective-origin: 50% 50%;
+    animation: perspective 5s linear infinite alternate;
+}
+.side{
+    --offset: calc(var(--size) / 2);
+    width: var(--size);
+    height: var(--size);
+    background-color: rgba(158, 21, 212, 0.233);
+    color: #fff;
+    border: 2px rgba(0, 0, 0, 0.753) solid;
+    position: absolute;
+    line-height: var(--size);
+    text-align: center;
+    transform: translateZ(var(--offset));
+}
+
+.side span{
+    font-size: 6em;
+}
+
+.left{
+    transform: rotateY(-90deg) translateZ(var(--offset));
+    background-color: rgba(62, 129, 230, 0.233);
+}
+
+.right{
+    transform: rotateY(90deg) translateZ(var(--offset));
+    background-color: rgba(219, 16, 60, 0.233);
+}
+
+.top{
+    transform: rotateX(90deg) translateZ(var(--offset));
+    background-color: rgba(37, 212, 21, 0.233);
+}
+
+.bottom{
+    transform: rotateX(-90deg) translateZ(var(--offset));
+    background-color: rgba(212, 199, 21, 0.233);
+}
+
+.front{
+    transform: rotateX(0deg) translateZ(var(--offset));
+    background-color: rgba(236, 87, 87, 0.452);
+}
+
+.back{
+    transform: rotateX(-180deg) translateZ(var(--offset));
+    background-color: rgba(131, 219, 31, 0.233);
+}
+
+
+@keyframes perspective{
+    0% {
+        perspective-origin: 50% 50%;
+    }
+    25% {
+        perspective-origin: 1000% 0%;
+    }
+    50% {
+        perspective-origin: 100% 1000%;
+    }
+    75% {
+        perspective-origin: 0% 100%;
+    }
+    100% {
+        perspective-origin: 0% 0%;
+    }
+}
+

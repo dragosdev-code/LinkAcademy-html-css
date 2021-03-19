@@ -12,7 +12,6 @@
 }
 
 #navbarNavAltMarkup{
-    display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
     font-family: 'Alegreya', serif;

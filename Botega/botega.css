@@ -1,0 +1,107 @@
+@media screen and (max-width: 600px){
+    body{
+        font-size: 14px;
+    }
+
+    #homepage{
+        background-size: 70%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    body{
+        font-size: 16px;
+    }
+
+    #homepage{
+        background-size: 30%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        font-size: 20px;
+    }
+
+    #homepage{
+        background-size: 25%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+#homepage, #lastpage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#homepage{
+    background-color: #000;
+    color: #fff;
+    background-image: url(https://raw.githubusercontent.com/miezuit/html_css/master/bottega/img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#homepage h1{
+    font-family: Tenez;
+    font-size: 8em;
+    margin-bottom: 0.3em;
+   
+}
+
+#enter, #back{
+    font-family: 'Futura-pt';
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+#lastpage{
+    background-color: #cd5c5c;
+    position: absolute;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+}
+
+#photos{
+    margin-bottom: 2.5em
+}
+
+@keyframes slide-in{
+    to{
+        left: 0;
+    }
+}
+
+.slide-in{
+    animation: slide-in 1s linear forwards;
+}
+
+@keyframes slide-out{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100vw;
+    }
+}
+
+.slide-out{
+    animation: slide-out 1s linear forwards;
+}
+

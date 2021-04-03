@@ -1,0 +1,11 @@
+h1{
+    color: darkorange;
+    animation: bounce 3s infinite linear 
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
